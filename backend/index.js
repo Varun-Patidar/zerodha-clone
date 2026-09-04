@@ -24,9 +24,9 @@ console.log("SERVER FILE STARTED");
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
-    credentials: true,
-  })
+  origin: "https://zerodha-dashboard-626r.onrender.com",
+  credentials: true,
+})
 );
 
 app.use(bodyParser.json());
