@@ -29,7 +29,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3002/auth/login",
+        "https://zerodha-backend-9xt3.onrender.com/auth/login",
         formData,
         {
           withCredentials: true,

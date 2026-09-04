@@ -10,7 +10,7 @@ const ProtectedRoute = ({ children }) => {
     const verifyUser = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:3002/auth/verify",
+          "https://zerodha-backend-9xt3.onrender.com/auth/verify",
           {
             withCredentials: true,
           }
