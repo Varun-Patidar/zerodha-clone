@@ -17,6 +17,7 @@ const PORT = process.env.PORT || 3002;
 const uri = process.env.MONGO_URL;
 
 const app = express();
+console.log("SERVER FILE STARTED");
 
 
 // ================= MIDDLEWARE =================
