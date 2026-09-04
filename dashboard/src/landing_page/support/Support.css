@@ -1,0 +1,67 @@
+/* SUPPORT HERO */
+
+#supportHero {
+    background-color: #387ed1;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#supportWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#supportWrapper a {
+    color: white;
+    text-decoration: none;
+}
+
+#supportHero .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#supportHero .col-6 {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#supportHero h1 {
+    color: white;
+}
+
+#supportHero input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#supportHero .col-6 a {
+    color: white;
+    margin-right: 20px;
+    line-height: 2;
+}
+
+
+/* CREATE TICKET */
+
+.container .col-4 {
+    box-sizing: border-box;
+}
+
+.container .col-4 h4 {
+    margin-bottom: 20px;
+}
+
+.container .col-4 i {
+    margin-right: 5px;
+}
+
+.container .col-4 a {
+    color: #387ed1;
+}
