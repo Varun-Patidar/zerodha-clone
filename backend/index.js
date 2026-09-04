@@ -96,14 +96,14 @@ app.post("/newOrder", async (req, res) => {
 
 // ================= SERVER + DATABASE =================
 
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`App started on port ${PORT}`);
+});
+
 mongoose
   .connect(uri)
   .then(() => {
     console.log("DB Connected");
-
-    app.listen(PORT, () => {
-      console.log(`App started on port ${PORT}`);
-    });
   })
   .catch((error) => {
     console.log("Database connection failed:", error);
